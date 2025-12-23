@@ -136,7 +136,7 @@ function App() {
             onValueChange={(value) => setActiveId(value as TripId)}
             className='w-full'
           >
-            <TabsList className='flex w-full flex-wrap gap-2 bg-white/70 p-1.5 text-xs text-zinc-700 shadow-sm ring-1 ring-white/80 backdrop-blur md:gap-3 md:text-sm'>
+            <TabsList className='flex w-full flex-wrap gap-2 bg-white/70 p-1.5 text-xs text-zinc-700 shadow-sm ring-1 ring-white/80 backdrop-blur md:gap-3 md:text-sm h-auto'>
               {trips.map((trip) => (
                 <TabsTrigger
                   key={trip.id}
